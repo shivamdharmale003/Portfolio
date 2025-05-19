@@ -1,0 +1,39 @@
+HTML:
+
+
+- First of all we need to make an header and give it header class.
+- Inside header I gave anchor tag <a> and inside that i wrote Shivam Dhamrmale and it connected to the home page through link. (anchor tags are used for links.)
+- then in navigation bar I have used anchor tag and made home, about, contact, etc. I also gave navbar class to the nav.
+- Then in the head i have used boxicons links so that i can use icons.
+- 
+
+
+
+
+
+
+
+
+
+CSS:
+
+- First i have taken univarsal selector(*) and in that i have added:
+    - margin and padding 0.
+    - box-sizing: border-box; it decides how the width and height calculated whether margin and padding are included or not.
+    - For removing underline of link we use text decoration.
+    - outline: Add a line around the outside of the element.
+    - for scrolling behavior we use scroll behavior.
+
+- After that i have use :root
+    - ::root is a special selector that refers to the topmost element (usually <html>).
+    - It's ideal for declaring global CSS variables.
+    - These variables can then be reused in any part of your CSS, making your styles more consistent and easier to maintain.
+
+- After that I have used html tag:
+    - overflow: It controls how content is handled horizontally and vertically when it overflows the width of it's container. 
+
+- header:
+    - position fixed fixes the element in place.
+    - top 0: plces the header at the very to of the page.
+    - z-index: Controls stacking order, A higher z-index means it seats on top of other elements.
+    - backdrop-filter: blurs the content behind the header. only works when there is transition
