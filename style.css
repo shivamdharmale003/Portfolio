@@ -374,6 +374,7 @@ span {
         padding: 2rem 3%;
     }
     section{
+        min-height: 50vh;
         padding: 10rem 3%;
     }
     .projects{
